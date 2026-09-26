@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: I hit one of the listed problems
+    url: https://github.com/globalmpc/rwa-engineering-problems/issues?q=is%3Aissue+label%3Aproblem
+    about: Comment on the existing issue with your chain, setup and what you tried.
+  - name: Security problem in a package
+    url: https://github.com/globalmpc/rwa-engineering-problems/blob/main/SECURITY.md
+    about: Report privately through the package's repository, never in a public issue.
