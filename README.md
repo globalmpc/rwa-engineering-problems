@@ -4,6 +4,8 @@ A public list of engineering problems that come up when building real-world-asse
 
 We are the team behind Global MPC. Every problem here is one we hit while building: a mining-tokenization wallet, an evidence registry, a waitlist with sponsored gas, and the reporting around them. We write each problem down so other teams can recognise it early, and so we can see which ones are worth solving in code.
 
+If this list is useful to you, a star helps other RWA teams find it.
+
 ## How to use this repository
 
 - **Read the list below.** Each problem is an issue with the symptoms, why it matters for RWA, and what would close it.
@@ -17,7 +19,7 @@ We are the team behind Global MPC. Every problem here is one we hit while buildi
 | 1 | Reading a contract's history on BNB Chain is unreliable | Closed by [`@globalmpc/evm-log-walker`](https://www.npmjs.com/package/@globalmpc/evm-log-walker) |
 | 2 | A contract's creation block is not recorded anywhere you can reach for free | Closed by [`@globalmpc/evm-log-walker`](https://www.npmjs.com/package/@globalmpc/evm-log-walker) (`creation-block` CLI) |
 | 3 | Bulk payouts cannot be checked against what was meant to be paid | Open |
-| 4 | Small dApps cannot publish the activity numbers they are scored on | Open |
+| 4 | Small dApps cannot publish the activity numbers they are scored on | Closed by [`@globalmpc/dapp-stats`](https://www.npmjs.com/package/@globalmpc/dapp-stats) |
 | 5 | Off-chain evidence has no public, dated record | Open |
 | 6 | Claim wording drifts between the app, the site and marketing | Open |
 | 7 | Every Flutter wallet rebuilds the recovery-phrase screens, and they break the same ways | Closed by [`mnemonic_backup_flow`](https://pub.dev/packages/mnemonic_backup_flow) |
@@ -30,6 +32,7 @@ Status means: **Open** (written down, no code yet), **Package in progress** (bei
 | Package | Closes | Install |
 |---|---|---|
 | [`@globalmpc/evm-log-walker`](https://github.com/globalmpc/rwa-kit-js/tree/main/packages/evm-log-walker) (npm) | 1, 2 | `npm install @globalmpc/evm-log-walker` |
+| [`@globalmpc/dapp-stats`](https://github.com/globalmpc/rwa-kit-js/tree/main/packages/dapp-stats) (npm) | 4 | `npm install @globalmpc/dapp-stats` |
 | [`mnemonic_backup_flow`](https://github.com/globalmpc/rwa-kit-flutter/tree/main/packages/mnemonic_backup_flow) (pub.dev) | 7 | `flutter pub add mnemonic_backup_flow` |
 
 ## Scope
