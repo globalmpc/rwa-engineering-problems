@@ -35,6 +35,21 @@ Status means: **Open** (written down, no code yet), **Package in progress** (bei
 | [`@globalmpc/dapp-stats`](https://github.com/globalmpc/rwa-kit-js/tree/main/packages/dapp-stats) (npm) | 4 | `npm install @globalmpc/dapp-stats` |
 | [`mnemonic_backup_flow`](https://github.com/globalmpc/rwa-kit-flutter/tree/main/packages/mnemonic_backup_flow) (pub.dev) | 7 | `flutter pub add mnemonic_backup_flow` |
 
+## Technology Stack
+
+- **Blockchain:** BNB Smart Chain, opBNB and other EVM-compatible chains.
+- **Packages:** TypeScript on npm in [`rwa-kit-js`](https://github.com/globalmpc/rwa-kit-js), Flutter on pub.dev in [`rwa-kit-flutter`](https://github.com/globalmpc/rwa-kit-flutter).
+- **This repository:** the problem list and the issue form. It contains no code.
+
+## Supported Networks
+
+The problems on this list come from work on these networks, and the packages are built for them:
+
+- **BNB Smart Chain Mainnet (Chain ID: 56)**: default network of the `dapp-stats` CLI.
+- **BNB Smart Chain Testnet (Chain ID: 97)**: `dapp-stats --network bsc --testnet`.
+- **opBNB Mainnet (Chain ID: 204)**: through your own endpoint; `evm-log-walker` documents the limits of the public opBNB endpoints.
+- Other EVM networks where a package says so, see each package's README.
+
 ## Scope
 
 - These are engineering problems, not product ideas or token topics.
