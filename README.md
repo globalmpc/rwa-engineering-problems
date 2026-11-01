@@ -24,6 +24,8 @@ If this list is useful to you, a star helps other RWA teams find it.
 | 6 | Claim wording drifts between the app, the site and marketing | Open |
 | 7 | Every Flutter wallet rebuilds the recovery-phrase screens, and they break the same ways | Closed by [`mnemonic_backup_flow`](https://pub.dev/packages/mnemonic_backup_flow) |
 | 8 | Sponsored-gas relayers get stuck with no visible symptom | Open |
+| 9 | A hot wallet's key signs whatever it is asked | Package in progress: `@globalmpc/sign-guard` |
+| 10 | A hot-wallet takeover is visible on chain, and nobody is watching | Package in progress: `@globalmpc/hot-wallet-watch` |
 
 Status means: **Open** (written down, no code yet), **Package in progress** (being built), **Closed by \<package\>** (a released package solves it; the issue is closed with a comment naming the package and version, and reopened if it does not cover a reported case).
 
@@ -53,7 +55,7 @@ The problems on this list come from work on these networks, and the packages are
 ## Scope
 
 - These are engineering problems, not product ideas or token topics.
-- We publish hashes, code and numbers. No package here holds funds or private keys for you.
+- We publish hashes, code and numbers. No package here holds funds or private keys for you. Problems 9 and 10 are about protecting the keys you already hold: limiting what they sign, and watching the wallets they control.
 - If a package gets no outside use after 30 days, we say so in its README and put it in maintenance. We would rather keep a short honest list than a long one.
 
 ## Contributing
