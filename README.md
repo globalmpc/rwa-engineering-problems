@@ -65,3 +65,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Security problems in a package go throug
 ## License
 
 The text in this repository is MIT, see [LICENSE](LICENSE). Each package carries its own licence file.
+
+---
+
+Maintained by [Global MPC (Mineral Project Coin)](https://globalmpc.tech). $MPC remains at the Pre-TGE stage, and no token contract address has been published. Official site: https://globalmpc.tech
